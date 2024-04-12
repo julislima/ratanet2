@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-image: url(fundo\ \(2\).png);
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  background-color: #1B4F73; 
+
+}
