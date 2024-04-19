@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css'; // Certifique-se de que o arquivo App.css existe
 import Nav from './menu.js';
+import Footer from './footer';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       
       <Nav />
+      <Footer /> 
 
     </div>
   );

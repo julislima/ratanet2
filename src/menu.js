@@ -1,25 +1,31 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importe o CSS do Bootstrap
-
+import Logo from '../src/logooo.png'
 
 function Nav() {
   return (
 
-    <div>
+    <nav class="menu">
 
-      <nav className="navbar bg-body-tertiary">
-        <div className="container-fluid">
-        <a className="navbar-brand">Navbar</a>
-        <form className="d-flex" role="search">
-          <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-          <button className="btn btn-outline-success" type="submit">Search</button>
-        </form>
+      <div class="logo">
+          <img src={Logo} class="d-block w-100" alt="..."></img> 
+      </div>
+
+        <div class='nav'>
+            <nav class="navbar navbar-expand-lg navegaçao">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+            <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"></input>
+                        <button class="btn btn-outline-success" type="submit">Procurar</button>
+            </form>
+            </div>
+            </nav>
         </div>
-      </nav>
-    </div>
-
-  );
+        
+    </nav>
+  )
 }
 
 export default Nav;
